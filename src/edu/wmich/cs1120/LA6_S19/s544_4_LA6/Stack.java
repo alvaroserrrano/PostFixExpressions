@@ -2,9 +2,12 @@ package edu.wmich.cs1120.LA6_S19.s544_4_LA6;
 
 public class Stack<E> implements IStack<E> {
 
+	//PRIVATE FIELDS
+	private LinkedList<E> list = new LinkedList<E>();
+	
 	@Override
 	public void push(E s) {
-		// TODO Auto-generated method stub
+		list.add(s);
 		
 	}
 

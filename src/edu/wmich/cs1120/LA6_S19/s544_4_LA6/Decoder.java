@@ -4,6 +4,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Decoder implements IDecoder {
+	
+	/**
+	 * Default constructor
+	 */
+	public Decoder() {
+
+	}
 
 	@Override
 	public void setPostfixExpressions(ArrayList<IPostfixExpression> expressions) {
