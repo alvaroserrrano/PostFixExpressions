@@ -1,5 +1,8 @@
 package edu.wmich.cs1120.LA6_S19.s544_4_LA6;
 
+import java.io.IOException;
+import java.util.ArrayList;
+
 public interface IDecoder {
 	/**
 	 * A setter for the postfix (arithmetic) expression

@@ -1,6 +1,6 @@
 package edu.wmich.cs1120.LA6_S19.s544_4_LA6;
 
-public interface IPostFixExpression {
+public interface IPostfixExpression {
 	/**
 	 * Calculates the result of the expression using a stack and returns
 	 * the result.
@@ -25,4 +25,6 @@ public interface IPostFixExpression {
 	 * @param stack		The stack for this expression
 	 */
 	void setStack(IStack<Integer> stack);
+   
+
 }
