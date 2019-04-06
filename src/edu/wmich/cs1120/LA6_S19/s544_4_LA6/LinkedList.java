@@ -151,5 +151,30 @@ public class LinkedList<E> implements ILinkedList<E> {
 		return tail.getData();
 	}
 
+	/**
+	 * Remove last element in the list
+	 * @return data of the last Node
+	 */
+	public E remove() {
+		copyHead = head;
+		E temp = (E) tail.value;
+		//Only one node in the list
+		if(copyHead == tail) {
+			head = null;
+			tail = null;
+		}else {
+			while(copyHead.next != tail) {
+				copyHead = (LinkedList<E>.Node) copyHead.next; 
+			}
+			//Now copyHead points to the Node before the tail
+			//New tail must point to null
+			copyHead.next = null;
+			//copyHead will be the new tail
+			tail = copyHead;
+		}
+		return temp;
+	}
+	
+	
 
 }
