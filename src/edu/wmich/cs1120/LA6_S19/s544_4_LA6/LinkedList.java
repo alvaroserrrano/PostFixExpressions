@@ -121,7 +121,13 @@ public class LinkedList<E> implements ILinkedList<E> {
 			copyHead = (LinkedList<E>.Node) copyHead.next;
 			counter++;
 		}
-		return null;
+		//The copyHead node is before the element we want to remove
+		//We want to remove this value
+		E temp = copyHead.next.getData();
+		//Now copyHead will reference the .next of the element we want to remove
+		copyHead.next = copyHead.next.getNext(); 
+		//We return the data of the removed Node
+		return temp;
 	}
 
 	/**
