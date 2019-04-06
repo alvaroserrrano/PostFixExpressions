@@ -148,8 +148,7 @@ public class LinkedList<E> implements ILinkedList<E> {
 
 	@Override
 	public E getTail() {
-		// TODO Auto-generated method stub
-		return null;
+		return tail.getData();
 	}
 
 
