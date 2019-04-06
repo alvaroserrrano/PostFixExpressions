@@ -107,9 +107,20 @@ public class LinkedList<E> implements ILinkedList<E> {
 			return false;
 	}
 
+	/**
+	 * Removes the element at the specified index.
+	 * @param Index of element to be removed. (Indexing starts from 0.)
+	 * @return The contents of the element that was removed.
+	 * @throws IndexOutOfBoundsException
+	 */
 	@Override
 	public E remove(int index) throws IndexOutOfBoundsException {
-		// TODO Auto-generated method stub
+		copyHead = head;
+		int counter = -1;
+		while(counter < index - 1) {
+			copyHead = (LinkedList<E>.Node) copyHead.next;
+			counter++;
+		}
 		return null;
 	}
 
