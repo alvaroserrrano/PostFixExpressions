@@ -33,16 +33,22 @@ public class Stack<E> implements IStack<E> {
 		return list.getTail();
 	}
 
+	/**
+	 * 
+	 * @return The number of elements on the stack
+	 */
 	@Override
 	public int size() {
-		// TODO Auto-generated method stub
-		return 0;
+		return list.size();
 	}
 
+	/**
+	 * 
+	 * @return True if the stack contains no elements; false otherwise.
+	 */
 	@Override
 	public boolean isEmpty() {
-		// TODO Auto-generated method stub
-		return false;
+		return list.isEmpty();
 	}
 
 }
