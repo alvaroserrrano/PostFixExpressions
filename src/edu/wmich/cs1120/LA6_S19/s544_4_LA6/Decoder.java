@@ -1,15 +1,17 @@
 package edu.wmich.cs1120.LA6_S19.s544_4_LA6;
 
+import java.io.RandomAccessFile;
 import java.io.IOException;
 import java.util.ArrayList;
 
 public class Decoder implements IDecoder {
-	
+	RandomAccessFile file;
+	ArrayList<IPostfixExpression> expressionList;
 	/**
 	 * Default constructor
 	 */
 	public Decoder() {
-
+		
 	}
 
 	/**
@@ -18,7 +20,7 @@ public class Decoder implements IDecoder {
 	 */
 	@Override
 	public void setPostfixExpressions(ArrayList<IPostfixExpression> expressions) {
-		// TODO Auto-generated method stub
+		expressionList = expressions;
 
 	}
 
@@ -33,7 +35,12 @@ public class Decoder implements IDecoder {
 	 */
 	@Override
 	public void processExpressions(String fileName) throws IOException {
-		// TODO Auto-generated method stub
+		file = new RandomAccessFile(fileName,"r");
+		boolean done = false;
+		while(!done) {
+			file.seek(0);
+			file.readChar();
+		}
 
 	}
 	

@@ -65,10 +65,11 @@ public class LinkedList<E> implements ILinkedList<E> {
 		if(head == null) {
 			head = newNode;
 			tail = newNode;
-		}else {
+		}
+		else {
 			tail.next = newNode;
 		}
-		tail = newNode;
+			tail = newNode;
 	}
 
 	/**

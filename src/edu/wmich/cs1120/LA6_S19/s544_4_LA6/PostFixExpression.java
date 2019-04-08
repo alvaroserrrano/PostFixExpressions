@@ -9,7 +9,7 @@ public class PostFixExpression implements IPostfixExpression {
 	 */
 	@Override
 	public int calculateResult() {
-		// TODO Auto-generated method stub
+	
 		return 0;
 	}
 

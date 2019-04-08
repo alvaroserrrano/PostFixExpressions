@@ -1,8 +1,8 @@
 package edu.wmich.cs1120.LA6_S19.s544_4_LA6;
-
+import java.io.IOException;
 public class LA6Test {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException{
 		
 		IDecoder decoder = new Decoder();	
 		System.out.println(">>> Processing expressions from Expression1.dat\n");
