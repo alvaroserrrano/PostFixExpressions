@@ -2,6 +2,10 @@ package edu.wmich.cs1120.LA6_S19.s544_4_LA6;
 
 public class PostFixExpression implements IPostfixExpression {
 
+	//PRIVATE FIELDS
+	private String expression = "";
+	private IStack<Integer> stack = new Stack<Integer>();
+	
 	/**
 	 * Calculates the result of the expression using a stack and returns
 	 * the result.
@@ -19,8 +23,7 @@ public class PostFixExpression implements IPostfixExpression {
 	 */
 	@Override
 	public String getPostfixExpression() {
-		// TODO Auto-generated method stub
-		return null;
+		return expression;
 	}
 
 	/**
@@ -29,8 +32,7 @@ public class PostFixExpression implements IPostfixExpression {
 	 */
 	@Override
 	public void setPostfixExpression(String expression) {
-		// TODO Auto-generated method stub
-
+		this.expression = expression;
 	}
 
 	/**
@@ -39,8 +41,7 @@ public class PostFixExpression implements IPostfixExpression {
 	 */
 	@Override
 	public void setStack(IStack<Integer> stack) {
-		// TODO Auto-generated method stub
-
+		this.stack = stack;
 	}
 
 }
