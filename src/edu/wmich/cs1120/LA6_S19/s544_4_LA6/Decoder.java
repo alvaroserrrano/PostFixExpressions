@@ -95,8 +95,12 @@ public class Decoder implements IDecoder {
 	 */
 	@Override
 	public void printResults() {
-		// TODO Auto-generated method stub
-
+		System.out.println("Number of expressions");
+		System.out.println("-----------------------");
+		for(int i = 0; i < expressionList.size(); i++) {
+			System.out.println("Expression " + (i+1) + ": " + expressionList.get(i).getPostfixExpression());
+			System.out.println("Result: " + expressionList.get(i).calculateResult());
+		}
 	}
 
 }
