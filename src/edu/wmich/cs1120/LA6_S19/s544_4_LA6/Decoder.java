@@ -5,8 +5,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Decoder implements IDecoder {
-	RandomAccessFile file;
-	ArrayList<IPostfixExpression> expressionList;
+
+	private ArrayList<IPostfixExpression> expressionList = new ArrayList<IPostfixExpression>(); 
 	/**
 	 * Default constructor
 	 */
@@ -30,18 +30,25 @@ public class Decoder implements IDecoder {
 	 * expression attribute for the Postfix object, and adds the expression
 	 * to the ArrayList.
 	 * 
+	 * 2 expressions in each file
+	 * Expressions made of chars at random locations
+	 * First 2 bytes => first char of expression
+	 * Following 4 bytes => location index of the next char
+	 * -1 => end of current expression
+	 * Byte following -1=> beginning of the next expression
+	 * -1000 => End of the last expression
+	 * 
+	 * 
 	 * @param fileName	The name of the input file (a random access file).
 	 * @throws IOException
 	 */
 	@Override
 	public void processExpressions(String fileName) throws IOException {
-		file = new RandomAccessFile(fileName,"r");
-		boolean done = false;
-		while(!done) {
-			file.seek(0);
-			file.readChar();
-		}
+		RandomAccessFile file = new RandomAccessFile(fileName, "r");
+		int position = 0;
+		boolean countExpression = true;
 
+		file.close();
 	}
 	
 	/**
