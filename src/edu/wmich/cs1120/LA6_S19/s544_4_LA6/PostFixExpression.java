@@ -25,13 +25,35 @@ public class PostFixExpression implements IPostfixExpression {
 			int right = 0;
 			int left = 0;
 			switch(tempString) {
-			
+			case "+":
+				right = stack.pop();
+				left = stack.pop();
+				stack.push(left + right);
+				break;
+			case "-":
+				right = stack.pop();
+				left = stack.pop();
+				stack.push(left -right);
+				break;
+			case "*":
+				right = stack.pop();
+				left = stack.pop();
+				// System.out.println(left + " * " + right);
+				stack.push(left * right);
+				break;
+			case "/":
+				right = stack.pop();
+				left = stack.pop();
+				// System.out.println(left + " / " + right);
+				stack.push(left / right);
+				break;
 			default:
 				stack.push(Integer.parseInt(tempString));
 				break;
 			}//switch
 		}//for
-		return 0;
+		//return total
+		return stack.pop();
 	}
 
 	/**
