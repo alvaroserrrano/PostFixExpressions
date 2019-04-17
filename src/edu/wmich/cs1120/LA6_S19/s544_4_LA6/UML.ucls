@@ -1,185 +1,243 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.Decoder" project="LA6_S19" 
-    file="/LA6_S19/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/Decoder.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="391" y="214"/>    
+  <class id="1" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.Decoder" project="s544_5_la6" 
+    file="/s544_5_la6/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/Decoder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="656" y="331"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="2" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.ILinkedList" project="LA6_S19" 
-    file="/LA6_S19/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/ILinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="132" y="113"/>    
+  <interface id="2" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.IDecoder" project="s544_5_la6" 
+    file="/s544_5_la6/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/IDecoder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="897" y="122"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <interface id="3" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.IDecoder" project="LA6_S19" 
-    file="/LA6_S19/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/IDecoder.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="390" y="77"/>    
+  <interface id="3" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.ILinkedList" project="s544_5_la6" 
+    file="/s544_5_la6/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/ILinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1218" y="158"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <interface id="4" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.INode" project="LA6_S19" 
-    file="/LA6_S19/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/INode.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="839" y="88"/>    
+  <interface id="4" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.INode" project="s544_5_la6" 
+    file="/s544_5_la6/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/INode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="578" y="117"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <interface id="5" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.IPostfixExpression" project="LA6_S19" 
-    file="/LA6_S19/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/IPostfixExpression.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="649" y="87"/>    
+  <interface id="5" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.IPostfixExpression" project="s544_5_la6" 
+    file="/s544_5_la6/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/IPostfixExpression.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="889" y="515"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <interface id="6" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.IStack" project="LA6_S19" 
-    file="/LA6_S19/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/IStack.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="390" y="388"/>    
+  <interface id="6" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.IStack" project="s544_5_la6" 
+    file="/s544_5_la6/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/IStack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="771" y="776"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="7" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.LA6Test" project="LA6_S19" 
-    file="/LA6_S19/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/LA6Test.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="136" y="539"/>    
+  <class id="7" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.LA6Test" project="s544_5_la6" 
+    file="/s544_5_la6/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/LA6Test.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="259" y="103"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.LinkedList.Node" project="LA6_S19" 
-    file="/LA6_S19/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/LinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="848" y="268"/>    
+  <class id="8" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.LinkedList.Node" project="s544_5_la6" 
+    file="/s544_5_la6/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/LinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="278" y="301"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.LinkedList" project="LA6_S19" 
-    file="/LA6_S19/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/LinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="136" y="348"/>    
+  <class id="9" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.LinkedList" project="s544_5_la6" 
+    file="/s544_5_la6/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/LinkedList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="340" y="645"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.PostFixExpression" project="LA6_S19" 
-    file="/LA6_S19/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/PostFixExpression.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="654" y="257"/>    
+  <class id="10" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.PostFixExpression" project="s544_5_la6" 
+    file="/s544_5_la6/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/PostFixExpression.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1197" y="426"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="11" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.Stack" project="LA6_S19" 
-    file="/LA6_S19/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/Stack.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="644" y="463"/>    
+  <class id="11" language="java" name="edu.wmich.cs1120.LA6_S19.s544_4_LA6.Stack" project="s544_5_la6" 
+    file="/s544_5_la6/src/edu/wmich/cs1120/LA6_S19/s544_4_LA6/Stack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1171" y="708"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <realization id="12">    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="2"/>  
-  </realization>  
-  <association id="13">    
+  <association id="12">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="13" name="head"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="15">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="14" name="expressionList"/>      
-      <multiplicity id="15" minimum="0" maximum="2147483647"/>    
+      <attribute id="16" name="expressionList"/>      
+      <multiplicity id="17" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="16">    
-    <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="17" name="copyHead"/>      
-      <multiplicity id="18" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="19">    
-    <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="20" name="tail"/>      
-      <multiplicity id="21" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <realization id="19">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <nesting id="21">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
   <realization id="22">    
     <end type="SOURCE" refId="10"/>    
     <end type="TARGET" refId="5"/>  
   </realization>  
-  <nesting id="23">    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="8"/>  
-  </nesting>  
-  <association id="24">    
-    <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="25" name="head"/>      
-      <multiplicity id="26" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="27">    
-    <end type="SOURCE" refId="11"/>    
+  <dependency id="23">    
+    <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <realization id="24">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
   </realization>  
-  <association id="28">    
+  <dependency id="25">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="26">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="27">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="28">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="29">    
     <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="29" name="list"/>      
-      <multiplicity id="30" minimum="0" maximum="1"/>    
+      <attribute id="30" name="list"/>      
+      <multiplicity id="31" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="9" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="31">    
+  <dependency id="32">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <association id="33">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="34" name="copyHead"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="36">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="37">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="38" name="tail"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="40">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="41">    
     <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="32" name="next"/>      
-      <multiplicity id="33" minimum="0" maximum="1"/>    
+      <attribute id="42" name="next"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="34">    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="4"/>  
+  <realization id="44">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="6"/>  
   </realization>  
-  <association id="35">    
+  <dependency id="45">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="46">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="47">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="48">    
     <end type="SOURCE" refId="10" navigable="false">      
-      <attribute id="36" name="stack"/>      
-      <multiplicity id="37" minimum="0" maximum="1"/>    
+      <attribute id="49" name="stack"/>      
+      <multiplicity id="50" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="38">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="3"/>  
+  <realization id="51">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="4"/>  
   </realization>  
+  <dependency id="52">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
